@@ -1,2 +1,2 @@
-FROM ubuntu
-RUN apt-get update && apt-get install -y figlet
+FROM nginx
+Expose 80
